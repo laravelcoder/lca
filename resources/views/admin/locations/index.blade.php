@@ -7,6 +7,13 @@
     <p>
         <a href="{{ route('admin.locations.create') }}" class="btn btn-success">@lang('quickadmin.qa_add_new')</a>
         
+        @if(!is_null(Auth::getUser()->role_id) && config('quickadmin.can_see_all_records_role_id') == Auth::getUser()->role_id)
+            @if(Session::get('Location.filter', 'all') == 'my')
+                <a href="?filter=all" class="btn btn-default">Show all records</a>
+            @else
+                <a href="?filter=my" class="btn btn-default">Filter my records</a>
+            @endif
+        @endif
     </p>
     @endcan
 
@@ -36,6 +43,8 @@
                         <th>@lang('quickadmin.locations.fields.nickname')</th>
                         <th>@lang('quickadmin.locations.fields.city')</th>
                         <th>@lang('quickadmin.locations.fields.state')</th>
+                        <th>@lang('quickadmin.locations.fields.phone2')</th>
+                        <th>@lang('quickadmin.locations.fields.created-by')</th>
                         @if( request('show_deleted') == 1 )
                         <th>&nbsp;</th>
                         @else
@@ -55,6 +64,8 @@
                                 <td field-key='nickname'>{{ $location->nickname }}</td>
                                 <td field-key='city'>{{ $location->city }}</td>
                                 <td field-key='state'>{{ $location->state }}</td>
+                                <td field-key='phone2'>{{ $location->phone2 }}</td>
+                                <td field-key='created_by'>{{ $location->created_by->name or '' }}</td>
                                 @if( request('show_deleted') == 1 )
                                 <td>
                                     @can('location_delete')
@@ -99,7 +110,7 @@
                         @endforeach
                     @else
                         <tr>
-                            <td colspan="12">@lang('quickadmin.qa_no_entries_in_table')</td>
+                            <td colspan="19">@lang('quickadmin.qa_no_entries_in_table')</td>
                         </tr>
                     @endif
                 </tbody>

@@ -13,7 +13,7 @@ class ContactCompanySeed extends Seeder
     {
         $items = [
             
-            ['id' => 1, 'name' => 'Lice Clinics of America', 'logo' => '/tmp/phpPwpQAE', 'storefront' => null,],
+            ['id' => 1, 'name' => 'Lice Clinics of America', 'logo' => '/tmp/phpPwpQAE',],
 
         ];
 

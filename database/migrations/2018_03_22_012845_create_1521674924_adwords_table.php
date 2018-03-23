@@ -20,9 +20,9 @@ class Create1521674924AdwordsTable extends Migration
                 $table->string('client_id')->nullable();
                 $table->string('client_secret')->nullable();
                 $table->string('refresh_token')->nullable();
-                $table->string('authorization_uri')->default('https://accounts.google.com/o/oauth2/v2/auth');
-                $table->string('redirect_uri')->default('urn:ietf:wg:oauth:2.0:oob');
-                $table->string('token_credential_uri')->default('https://www.googleapis.com/oauth2/v4/token');
+                $table->string('authorization_uri')->nullable();
+                $table->string('redirect_uri')->nullable();
+                $table->string('token_credential_uri')->nullable();
                 
                 $table->timestamps();
                 $table->softDeletes();

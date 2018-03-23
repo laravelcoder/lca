@@ -14,5 +14,11 @@ class AssetsCategory extends Model
     protected $fillable = ['title'];
     
     
+    public static function boot()
+    {
+        parent::boot();
+
+        AssetsCategory::observe(new \App\Observers\UserActionsObserver);
+    }
     
 }

@@ -27,6 +27,9 @@ class StoreLocationsRequest extends FormRequest
             'address' => 'required',
             'city' => 'required',
             'state' => 'required',
+            'logo' => 'nullable|mimes:png,jpg,jpeg,gif',
+            'storefront' => 'nullable|mimes:png,jpg,jpeg,gif',
+            'clinic_id' => 'max:2147483647|required|numeric|unique:locations,clinic_id,'.$this->route('location'),
         ];
     }
 }

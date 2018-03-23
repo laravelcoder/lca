@@ -9,6 +9,9 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\Admin\StoreAnalyticsRequest;
 use App\Http\Requests\Admin\UpdateAnalyticsRequest;
 
+use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
+use Illuminate\Support\Facades\Auth;
 class AnalyticsController extends Controller
 {
     /**

@@ -23,6 +23,7 @@ class StoreContactsRequest extends FormRequest
     public function rules()
     {
         return [
+            'contact_type' => 'required',
         ];
     }
 }

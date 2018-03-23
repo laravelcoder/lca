@@ -1,0 +1,7 @@
+[25-Jan-2018 09:55:01 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/lcadbcom/public_html/lcadashboard/app/Exceptions/Handler.php on line 8
+[26-Jan-2018 21:53:00 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/lcadbcom/public_html/lcadashboard/app/Exceptions/Handler.php on line 8
+[16-Feb-2018 07:14:41 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/lcadbcom/public_html/lcadashboard/app/Exceptions/Handler.php on line 8
+[19-Feb-2018 20:58:32 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/lcadbcom/public_html/lcadashboard/app/Exceptions/Handler.php on line 8
+[20-Feb-2018 00:19:18 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/lcadbcom/public_html/lcadashboard/app/Exceptions/Handler.php on line 8
+[22-Feb-2018 23:17:58 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/lcadbcom/public_html/lcadashboard/app/Exceptions/Handler.php on line 8
+[17-Mar-2018 17:49:12 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/lcadbcom/public_html/lcadashboard/app/Exceptions/Handler.php on line 8

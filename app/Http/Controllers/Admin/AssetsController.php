@@ -9,6 +9,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\Admin\StoreAssetsRequest;
 use App\Http\Requests\Admin\UpdateAssetsRequest;
 use App\Http\Controllers\Traits\FileUploadTrait;
+use Yajra\DataTables\DataTables;
 
 use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
@@ -29,9 +30,83 @@ class AssetsController extends Controller
         }
 
 
-                $assets = Asset::all();
+        
+        if (request()->ajax()) {
+            $query = Asset::query();
+            $query->with("category");
+            $query->with("status");
+            $query->with("location");
+            $query->with("assigned_user");
+            $query->with("assigned_clinic");
+            $template = 'actionsTemplate';
+            
+            $query->select([
+                'assets.id',
+                'assets.category_id',
+                'assets.serial_number',
+                'assets.title',
+                'assets.photo1',
+                'assets.photo2',
+                'assets.photo3',
+                'assets.status_id',
+                'assets.location_id',
+                'assets.assigned_user_id',
+                'assets.notes',
+                'assets.assigned_clinic_id',
+            ]);
+            $table = Datatables::of($query);
 
-        return view('admin.assets.index', compact('assets'));
+            $table->setRowAttr([
+                'data-entry-id' => '{{$id}}',
+            ]);
+            $table->addColumn('massDelete', '&nbsp;');
+            $table->addColumn('actions', '&nbsp;');
+            $table->editColumn('actions', function ($row) use ($template) {
+                $gateKey  = 'asset_';
+                $routeKey = 'admin.assets';
+
+                return view($template, compact('row', 'gateKey', 'routeKey'));
+            });
+            $table->editColumn('category.title', function ($row) {
+                return $row->category ? $row->category->title : '';
+            });
+            $table->editColumn('serial_number', function ($row) {
+                return $row->serial_number ? $row->serial_number : '';
+            });
+            $table->editColumn('title', function ($row) {
+                return $row->title ? $row->title : '';
+            });
+            $table->editColumn('photo1', function ($row) {
+                if($row->photo1) { return '<a href="'. asset(env('UPLOAD_PATH').'/' . $row->photo1) .'" target="_blank"><img src="'. asset(env('UPLOAD_PATH').'/thumb/' . $row->photo1) .'"/>'; };
+            });
+            $table->editColumn('photo2', function ($row) {
+                if($row->photo2) { return '<a href="'. asset(env('UPLOAD_PATH').'/' . $row->photo2) .'" target="_blank"><img src="'. asset(env('UPLOAD_PATH').'/thumb/' . $row->photo2) .'"/>'; };
+            });
+            $table->editColumn('photo3', function ($row) {
+                if($row->photo3) { return '<a href="'. asset(env('UPLOAD_PATH').'/' . $row->photo3) .'" target="_blank"><img src="'. asset(env('UPLOAD_PATH').'/thumb/' . $row->photo3) .'"/>'; };
+            });
+            $table->editColumn('status.title', function ($row) {
+                return $row->status ? $row->status->title : '';
+            });
+            $table->editColumn('location.title', function ($row) {
+                return $row->location ? $row->location->title : '';
+            });
+            $table->editColumn('assigned_user.name', function ($row) {
+                return $row->assigned_user ? $row->assigned_user->name : '';
+            });
+            $table->editColumn('notes', function ($row) {
+                return $row->notes ? $row->notes : '';
+            });
+            $table->editColumn('assigned_clinic.name', function ($row) {
+                return $row->assigned_clinic ? $row->assigned_clinic->name : '';
+            });
+
+            $table->rawColumns(['actions','massDelete','photo1','photo2','photo3']);
+
+            return $table->make(true);
+        }
+
+        return view('admin.assets.index');
     }
 
     /**

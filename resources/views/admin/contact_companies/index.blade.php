@@ -27,7 +27,6 @@
 
                         <th>@lang('quickadmin.contact-companies.fields.name')</th>
                         <th>@lang('quickadmin.contact-companies.fields.logo')</th>
-                        <th>@lang('quickadmin.contact-companies.fields.storefront')</th>
                                                 <th>&nbsp;</th>
 
                     </tr>
@@ -43,7 +42,6 @@
 
                                 <td field-key='name'>{{ $contact_company->name }}</td>
                                 <td field-key='logo'>@if($contact_company->logo)<a href="{{ asset(env('UPLOAD_PATH').'/' . $contact_company->logo) }}" target="_blank"><img src="{{ asset(env('UPLOAD_PATH').'/thumb/' . $contact_company->logo) }}"/></a>@endif</td>
-                                <td field-key='storefront'>@if($contact_company->storefront)<a href="{{ asset(env('UPLOAD_PATH').'/' . $contact_company->storefront) }}" target="_blank"><img src="{{ asset(env('UPLOAD_PATH').'/thumb/' . $contact_company->storefront) }}"/></a>@endif</td>
                                                                 <td>
                                     @can('contact_company_view')
                                     <a href="{{ route('admin.contact_companies.show',[$contact_company->id]) }}" class="btn btn-xs btn-primary">@lang('quickadmin.qa_view')</a>
@@ -66,7 +64,7 @@
                         @endforeach
                     @else
                         <tr>
-                            <td colspan="8">@lang('quickadmin.qa_no_entries_in_table')</td>
+                            <td colspan="7">@lang('quickadmin.qa_no_entries_in_table')</td>
                         </tr>
                     @endif
                 </tbody>

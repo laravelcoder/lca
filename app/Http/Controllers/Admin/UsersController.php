@@ -118,14 +118,14 @@ class UsersController extends Controller
             return abort(401);
         }
         
-        $roles = \App\Role::get()->pluck('title', 'id')->prepend(trans('quickadmin.qa_please_select'), '');$internal_notifications = \App\InternalNotification::whereHas('users',
+        $roles = \App\Role::get()->pluck('title', 'id')->prepend(trans('quickadmin.qa_please_select'), '');$user_actions = \App\UserAction::where('user_id', $id)->get();$internal_notifications = \App\InternalNotification::whereHas('users',
                     function ($query) use ($id) {
                         $query->where('id', $id);
-                    })->get();$assets_histories = \App\AssetsHistory::where('assigned_user_id', $id)->get();$tasks = \App\Task::where('user_id', $id)->get();$assets = \App\Asset::where('assigned_user_id', $id)->get();
+                    })->get();$assets_histories = \App\AssetsHistory::where('assigned_user_id', $id)->get();$tasks = \App\Task::where('user_id', $id)->get();$assets = \App\Asset::where('assigned_user_id', $id)->get();$locations = \App\Location::where('created_by_id', $id)->get();
 
         $user = User::findOrFail($id);
 
-        return view('admin.users.show', compact('user', 'internal_notifications', 'assets_histories', 'tasks', 'assets'));
+        return view('admin.users.show', compact('user', 'user_actions', 'internal_notifications', 'assets_histories', 'tasks', 'assets', 'locations'));
     }
 
 

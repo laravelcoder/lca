@@ -13,7 +13,7 @@ class LocationSeed extends Seeder
     {
         $items = [
             
-            ['id' => 1, 'company_id' => 1, 'nickname' => 'LCA CORPORATE', 'address' => '4850 S 154 E Myrtle Ave', 'address_2' => '#304', 'city' => 'Murray', 'state' => 'UT', 'phone' => '1-801-533-5423',],
+            ['id' => 1, 'company_id' => 1, 'nickname' => 'LCA CORPORATE', 'address' => '4850 S 154 E Myrtle Ave', 'address_2' => '#304', 'city' => 'Murray', 'state' => 'UT', 'phone' => '1-801-533-5423', 'phone2' => null, 'logo' => null, 'storefront' => null, 'google_map_link' => null, 'clinic_id' => null, 'email' => null, 'created_by_id' => null,],
 
         ];
 

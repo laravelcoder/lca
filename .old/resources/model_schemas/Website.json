@@ -1,0 +1,100 @@
+[
+  {"name": "id", "dbType": "increments", "htmlType": "text", "validations": "", "searchable": false, "fillable": false, "primary": true, "inForm": false, "inIndex": true },
+
+
+
+    {
+        "name": "website_name",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true
+    },
+
+
+    {
+        "name": "website",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true
+    },
+
+
+    {
+        "name": "clinic_id",
+        "dbType": "integer:nullable",
+        "htmlType": null,
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": false
+    },
+
+
+    {
+        "name": "profile_id",
+        "dbType": "integer:nullable",
+        "htmlType": null,
+        "validations": null,
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": false
+    },
+
+
+    {
+        "name": "created_at",
+        "dbType": "datetime",
+        "htmlType": "date",
+        "validations": null,
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+
+
+    {
+        "name": "updated_at",
+        "dbType": "datetime",
+        "htmlType": "date",
+        "validations": null,
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+
+
+    {
+        "type": "relation",
+        "relation": "mt1,Clinic"
+    },
+
+
+    {
+        "type": "relation",
+        "relation": "mtm,,locations"
+    },
+
+
+    {
+        "type": "relation",
+        "relation": "mtm,,zipcodes"
+    }
+]

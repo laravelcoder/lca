@@ -19,6 +19,12 @@ class Analytic extends Model
     protected $fillable = ['view_name', 'view_id', 'website_id'];
     
     
+    public static function boot()
+    {
+        parent::boot();
+
+        Analytic::observe(new \App\Observers\UserActionsObserver);
+    }
 
     /**
      * Set to null if empty

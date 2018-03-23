@@ -19,6 +19,7 @@ class RoleSeed extends Seeder
             ['id' => 5, 'title' => 'Vendor',],
             ['id' => 6, 'title' => 'Larada Employee',],
             ['id' => 7, 'title' => 'Larada Manager',],
+            ['id' => 8, 'title' => 'Developer',],
 
         ];
 

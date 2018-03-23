@@ -14,5 +14,11 @@ class TaskStatus extends Model
     protected $fillable = ['name'];
     
     
+    public static function boot()
+    {
+        parent::boot();
+
+        TaskStatus::observe(new \App\Observers\UserActionsObserver);
+    }
     
 }

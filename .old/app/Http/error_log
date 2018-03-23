@@ -1,0 +1,8 @@
+[25-Jan-2018 09:54:15 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Kernel' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Kernel.php on line 7
+[26-Jan-2018 21:53:29 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Kernel' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Kernel.php on line 7
+[14-Feb-2018 13:33:40 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Kernel' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Kernel.php on line 7
+[19-Feb-2018 20:58:48 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Kernel' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Kernel.php on line 7
+[20-Feb-2018 00:19:27 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Kernel' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Kernel.php on line 7
+[21-Feb-2018 17:54:44 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Kernel' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Kernel.php on line 7
+[22-Feb-2018 23:18:00 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Kernel' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Kernel.php on line 7
+[22-Mar-2018 13:20:23 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Kernel' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Kernel.php on line 7

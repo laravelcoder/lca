@@ -18,6 +18,12 @@ class Zipcode extends Model
     protected $fillable = ['zipcode', 'location_id'];
     
     
+    public static function boot()
+    {
+        parent::boot();
+
+        Zipcode::observe(new \App\Observers\UserActionsObserver);
+    }
 
     /**
      * Set to null if empty

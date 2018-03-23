@@ -60,6 +60,10 @@
                             <th>@lang('quickadmin.contacts.fields.personal-website')</th>
                             <td field-key='personal_website'>{{ $contact->personal_website }}</td>
                         </tr>
+                        <tr>
+                            <th>@lang('quickadmin.contacts.fields.contact-type')</th>
+                            <td field-key='contact_type'>{{ $contact->contact_type }}</td>
+                        </tr>
                     </table>
                 </div>
             </div>

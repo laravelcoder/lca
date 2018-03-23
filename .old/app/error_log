@@ -1,0 +1,9 @@
+[25-Jan-2018 09:50:14 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Auth\User' not found in /home/lcadbcom/public_html/lcadashboard/app/User.php on line 8
+[26-Jan-2018 21:48:29 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Auth\User' not found in /home/lcadbcom/public_html/lcadashboard/app/User.php on line 8
+[30-Jan-2018 14:24:12 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Auth\User' not found in /home/lcadbcom/public_html/lcadashboard/app/User.php on line 8
+[14-Feb-2018 11:46:50 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Auth\User' not found in /home/lcadbcom/public_html/lcadashboard/app/User.php on line 8
+[18-Feb-2018 22:25:00 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Auth\User' not found in /home/lcadbcom/public_html/lcadashboard/app/User.php on line 8
+[18-Feb-2018 22:57:11 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Auth\User' not found in /home/lcadbcom/public_html/lcadashboard/app/User.php on line 8
+[22-Feb-2018 23:17:23 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Auth\User' not found in /home/lcadbcom/public_html/lcadashboard/app/User.php on line 8
+[10-Mar-2018 03:08:32 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Auth\User' not found in /home/lcadbcom/public_html/lcadashboard/app/User.php on line 8
+[14-Mar-2018 03:03:49 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Auth\User' not found in /home/lcadbcom/public_html/lcadashboard/app/User.php on line 8

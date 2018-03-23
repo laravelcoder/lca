@@ -1,0 +1,66 @@
+<div class="pg-tp">
+    <i class="ion-cube"></i>
+    <div class="pr-tp-inr">
+        <h4>Cropbox</h4>
+        <span>Management of Cropbox.</span>
+    </div>
+</div><!-- Page Top -->
+
+<div class="panel-content">
+    <div class="widget pad50-65">
+        <div class="cropbox-wrp">
+            <div class="imageBox">
+                <div class="thumbBox"></div>
+                <div class="spinner" style="display: none">Loading...</div>
+            </div>
+            <div class="action">
+                <div class="file-upload-box">
+                    <strong>File Input:</strong>
+                    <div class="file-box">
+                        <label class="fileContainer">
+                            <span class="blue-bg brd-rd5">Browse</span>
+                            No File Selected.
+                            <input id="file" type="file" />
+                        </label>
+                    </div>
+                </div>
+                <input type="button brd-rd5" id="btnCrop" value="Crop" style="float: right">
+                <input type="button brd-rd5" id="btnZoomIn" value="+" style="float: right">
+                <input type="button brd-rd5" id="btnZoomOut" value="-" style="float: right">
+            </div>
+            <div class="cropped"></div>
+        </div>
+    </div>
+</div><!-- Panel Content -->
+<script>
+    $(window).on('load',function() {
+        'use strict';
+        
+        var options =
+        {
+            thumbBox: '.thumbBox',
+            spinner: '.spinner',
+            imgSrc: 'images/resource/crop-img.jpg'
+        }
+        var cropper = $('.imageBox').cropbox(options);
+        $('#file').on('change', function(){
+            var reader = new FileReader();
+            reader.onload = function(e) {
+                options.imgSrc = e.target.result;
+                cropper = $('.imageBox').cropbox(options);
+            }
+            reader.readAsDataURL(this.files[0]);
+            this.files = [];
+        })
+        $('#btnCrop').on('click', function(){
+            var img = cropper.getDataURL()
+            $('.cropped').append('<img src="'+img+'">');
+        })
+        $('#btnZoomIn').on('click', function(){
+            cropper.zoomIn();
+        })
+        $('#btnZoomOut').on('click', function(){
+            cropper.zoomOut();
+        })
+    });
+</script>

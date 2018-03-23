@@ -1,0 +1,7 @@
+[25-Jan-2018 09:55:05 UTC] PHP Fatal error:  Class 'Tests\TestCase' not found in /home/lcadbcom/public_html/lcadashboard/tests/Unit/ExampleTest.php on line 8
+[26-Jan-2018 21:53:33 UTC] PHP Fatal error:  Class 'Tests\TestCase' not found in /home/lcadbcom/public_html/lcadashboard/tests/Unit/ExampleTest.php on line 8
+[16-Feb-2018 05:58:54 UTC] PHP Fatal error:  Class 'Tests\TestCase' not found in /home/lcadbcom/public_html/lcadashboard/tests/Unit/ExampleTest.php on line 8
+[19-Feb-2018 21:30:15 UTC] PHP Fatal error:  Class 'Tests\TestCase' not found in /home/lcadbcom/public_html/lcadashboard/tests/Unit/ExampleTest.php on line 8
+[20-Feb-2018 00:23:53 UTC] PHP Fatal error:  Class 'Tests\TestCase' not found in /home/lcadbcom/public_html/lcadashboard/tests/Unit/ExampleTest.php on line 8
+[22-Feb-2018 23:18:31 UTC] PHP Fatal error:  Class 'Tests\TestCase' not found in /home/lcadbcom/public_html/lcadashboard/tests/Unit/ExampleTest.php on line 8
+[20-Mar-2018 01:43:46 UTC] PHP Fatal error:  Class 'Tests\TestCase' not found in /home/lcadbcom/public_html/lcadashboard/tests/Unit/ExampleTest.php on line 8

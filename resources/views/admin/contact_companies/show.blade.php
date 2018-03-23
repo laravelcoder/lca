@@ -20,16 +20,12 @@
                             <th>@lang('quickadmin.contact-companies.fields.logo')</th>
                             <td field-key='logo'>@if($contact_company->logo)<a href="{{ asset(env('UPLOAD_PATH').'/' . $contact_company->logo) }}" target="_blank"><img src="{{ asset(env('UPLOAD_PATH').'/thumb/' . $contact_company->logo) }}"/></a>@endif</td>
                         </tr>
-                        <tr>
-                            <th>@lang('quickadmin.contact-companies.fields.storefront')</th>
-                            <td field-key='storefront'>@if($contact_company->storefront)<a href="{{ asset(env('UPLOAD_PATH').'/' . $contact_company->storefront) }}" target="_blank"><img src="{{ asset(env('UPLOAD_PATH').'/thumb/' . $contact_company->storefront) }}"/></a>@endif</td>
-                        </tr>
                     </table>
                 </div>
             </div><!-- Nav tabs -->
 <ul class="nav nav-tabs" role="tablist">
     
-<li role="presentation" class="active"><a href="#locations" aria-controls="locations" role="tab" data-toggle="tab">Locations</a></li>
+<li role="presentation" class="active"><a href="#locations" aria-controls="locations" role="tab" data-toggle="tab">Clinics</a></li>
 <li role="presentation" class=""><a href="#contacts" aria-controls="contacts" role="tab" data-toggle="tab">Contacts</a></li>
 <li role="presentation" class=""><a href="#assets" aria-controls="assets" role="tab" data-toggle="tab">Assets</a></li>
 </ul>
@@ -44,6 +40,8 @@
             <th>@lang('quickadmin.locations.fields.nickname')</th>
                         <th>@lang('quickadmin.locations.fields.city')</th>
                         <th>@lang('quickadmin.locations.fields.state')</th>
+                        <th>@lang('quickadmin.locations.fields.phone2')</th>
+                        <th>@lang('quickadmin.locations.fields.created-by')</th>
                         @if( request('show_deleted') == 1 )
                         <th>&nbsp;</th>
                         @else
@@ -59,6 +57,8 @@
                     <td field-key='nickname'>{{ $location->nickname }}</td>
                                 <td field-key='city'>{{ $location->city }}</td>
                                 <td field-key='state'>{{ $location->state }}</td>
+                                <td field-key='phone2'>{{ $location->phone2 }}</td>
+                                <td field-key='created_by'>{{ $location->created_by->name or '' }}</td>
                                 @if( request('show_deleted') == 1 )
                                 <td>
                                     @can('delete')
@@ -103,7 +103,7 @@
             @endforeach
         @else
             <tr>
-                <td colspan="12">@lang('quickadmin.qa_no_entries_in_table')</td>
+                <td colspan="19">@lang('quickadmin.qa_no_entries_in_table')</td>
             </tr>
         @endif
     </tbody>
@@ -118,6 +118,7 @@
                         <th>@lang('quickadmin.contacts.fields.phone1')</th>
                         <th>@lang('quickadmin.contacts.fields.phone2')</th>
                         <th>@lang('quickadmin.contacts.fields.email')</th>
+                        <th>@lang('quickadmin.contacts.fields.contact-type')</th>
                                                 <th>&nbsp;</th>
 
         </tr>
@@ -132,6 +133,7 @@
                                 <td field-key='phone1'>{{ $contact->phone1 }}</td>
                                 <td field-key='phone2'>{{ $contact->phone2 }}</td>
                                 <td field-key='email'>{{ $contact->email }}</td>
+                                <td field-key='contact_type'>{{ $contact->contact_type }}</td>
                                                                 <td>
                                     @can('view')
                                     <a href="{{ route('contacts.show',[$contact->id]) }}" class="btn btn-xs btn-primary">@lang('quickadmin.qa_view')</a>
@@ -154,7 +156,7 @@
             @endforeach
         @else
             <tr>
-                <td colspan="18">@lang('quickadmin.qa_no_entries_in_table')</td>
+                <td colspan="19">@lang('quickadmin.qa_no_entries_in_table')</td>
             </tr>
         @endif
     </tbody>

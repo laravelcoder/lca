@@ -15,6 +15,12 @@ class InternalNotification extends Model
     protected $fillable = ['text', 'link'];
     
     
+    public static function boot()
+    {
+        parent::boot();
+
+        InternalNotification::observe(new \App\Observers\UserActionsObserver);
+    }
     
     public function users()
     {

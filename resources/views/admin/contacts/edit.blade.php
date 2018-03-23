@@ -167,6 +167,30 @@
                     @endif
                 </div>
             </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
+                    {!! Form::label('contact_type', trans('quickadmin.contacts.fields.contact-type').'*', ['class' => 'control-label']) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('contact_type'))
+                        <p class="help-block">
+                            {{ $errors->first('contact_type') }}
+                        </p>
+                    @endif
+                    <div>
+                        <label>
+                            {!! Form::radio('contact_type', 'ge', false, ['required' => '']) !!}
+                            General Employee
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            {!! Form::radio('contact_type', 'cp', false, ['required' => '']) !!}
+                            Contact Person
+                        </label>
+                    </div>
+                    
+                </div>
+            </div>
             
         </div>
     </div>

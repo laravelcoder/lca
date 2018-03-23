@@ -26,6 +26,12 @@ class Adword extends Model
     protected $fillable = ['client_customer_id', 'user_agent', 'client_id', 'client_secret', 'refresh_token', 'authorization_uri', 'redirect_uri', 'token_credential_uri', 'scope', 'website_id'];
     
     
+    public static function boot()
+    {
+        parent::boot();
+
+        Adword::observe(new \App\Observers\UserActionsObserver);
+    }
 
     /**
      * Set to null if empty

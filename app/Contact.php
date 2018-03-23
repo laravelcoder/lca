@@ -20,12 +20,19 @@ use Illuminate\Database\Eloquent\Model;
  * @property string $linked_in_url
  * @property string $google_plus_url
  * @property string $personal_website
+ * @property string $contact_type
 */
 class Contact extends Model
 {
-    protected $fillable = ['first_name', 'last_name', 'phone1', 'phone2', 'email', 'skype', 'twitter_username', 'instagram_username', 'facebook_url', 'linked_in_url', 'google_plus_url', 'personal_website', 'company_id'];
+    protected $fillable = ['first_name', 'last_name', 'phone1', 'phone2', 'email', 'skype', 'twitter_username', 'instagram_username', 'facebook_url', 'linked_in_url', 'google_plus_url', 'personal_website', 'contact_type', 'company_id'];
     
     
+    public static function boot()
+    {
+        parent::boot();
+
+        Contact::observe(new \App\Observers\UserActionsObserver);
+    }
 
     /**
      * Set to null if empty

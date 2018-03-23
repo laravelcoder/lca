@@ -31,6 +31,7 @@
                         <th>@lang('quickadmin.contacts.fields.phone2')</th>
                         <th>@lang('quickadmin.contacts.fields.email')</th>
                         <th>@lang('quickadmin.contacts.fields.company')</th>
+                        <th>@lang('quickadmin.contacts.fields.contact-type')</th>
                                                 <th>&nbsp;</th>
 
                     </tr>
@@ -50,6 +51,7 @@
                                 <td field-key='phone2'>{{ $contact->phone2 }}</td>
                                 <td field-key='email'>{{ $contact->email }}</td>
                                 <td field-key='company'>{{ $contact->company->name or '' }}</td>
+                                <td field-key='contact_type'>{{ $contact->contact_type }}</td>
                                                                 <td>
                                     @can('contact_view')
                                     <a href="{{ route('admin.contacts.show',[$contact->id]) }}" class="btn btn-xs btn-primary">@lang('quickadmin.qa_view')</a>
@@ -72,7 +74,7 @@
                         @endforeach
                     @else
                         <tr>
-                            <td colspan="18">@lang('quickadmin.qa_no_entries_in_table')</td>
+                            <td colspan="19">@lang('quickadmin.qa_no_entries_in_table')</td>
                         </tr>
                     @endif
                 </tbody>

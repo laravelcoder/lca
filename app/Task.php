@@ -20,6 +20,12 @@ class Task extends Model
     protected $fillable = ['name', 'description', 'attachment', 'due_date', 'status_id', 'user_id'];
     
     
+    public static function boot()
+    {
+        parent::boot();
+
+        Task::observe(new \App\Observers\UserActionsObserver);
+    }
 
     /**
      * Set to null if empty

@@ -1,0 +1,5 @@
+<!-- $FIELD_NAME_TITLE$ Field -->
+<div class="col-md-6 col-sm-6 col-lg-6">
+ {{--    {!! Form::label('$FIELD_NAME$', '$FIELD_NAME_TITLE$:') !!} --}}
+    {!! Form::text('$FIELD_NAME$', null, ['id' => 'input$FIELD_NAME$', 'class' => 'brd-rd5', 'placeholder' => '$FIELD_NAME_TITLE$']) !!}
+</div>

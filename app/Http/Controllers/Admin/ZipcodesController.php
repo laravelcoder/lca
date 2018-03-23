@@ -9,6 +9,9 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\Admin\StoreZipcodesRequest;
 use App\Http\Requests\Admin\UpdateZipcodesRequest;
 
+use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
+use Illuminate\Support\Facades\Auth;
 class ZipcodesController extends Controller
 {
     /**

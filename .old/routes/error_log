@@ -1,0 +1,148 @@
+[25-Jan-2018 09:50:07 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/lcadbcom/public_html/lcadashboard/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/api.php on line 17
+[25-Jan-2018 09:50:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/lcadbcom/public_html/lcadashboard/routes/web.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/web.php on line 5
+[25-Jan-2018 09:50:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/lcadbcom/public_html/lcadashboard/routes/console.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/console.php on line 16
+[25-Jan-2018 09:50:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Broadcast' not found in /home/lcadbcom/public_html/lcadashboard/routes/channels.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/channels.php on line 14
+[26-Jan-2018 21:48:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/lcadbcom/public_html/lcadashboard/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/api.php on line 17
+[26-Jan-2018 21:48:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/lcadbcom/public_html/lcadashboard/routes/web.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/web.php on line 5
+[26-Jan-2018 21:48:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/lcadbcom/public_html/lcadashboard/routes/console.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/console.php on line 16
+[26-Jan-2018 21:48:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Broadcast' not found in /home/lcadbcom/public_html/lcadashboard/routes/channels.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/channels.php on line 14
+[30-Jan-2018 15:39:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/lcadbcom/public_html/lcadashboard/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/api.php on line 17
+[30-Jan-2018 19:10:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/lcadbcom/public_html/lcadashboard/routes/web.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/web.php on line 5
+[31-Jan-2018 03:09:05 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/lcadbcom/public_html/lcadashboard/routes/console.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/console.php on line 16
+[31-Jan-2018 05:40:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Broadcast' not found in /home/lcadbcom/public_html/lcadashboard/routes/channels.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/channels.php on line 14
+[14-Feb-2018 11:57:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/lcadbcom/public_html/lcadashboard/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/api.php on line 17
+[14-Feb-2018 14:14:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Broadcast' not found in /home/lcadbcom/public_html/lcadashboard/routes/channels.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/channels.php on line 14
+[18-Feb-2018 22:37:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/lcadbcom/public_html/lcadashboard/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/api.php on line 17
+[18-Feb-2018 22:37:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Broadcast' not found in /home/lcadbcom/public_html/lcadashboard/routes/channels.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/channels.php on line 14
+[18-Feb-2018 22:37:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/lcadbcom/public_html/lcadashboard/routes/console.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/console.php on line 16
+[18-Feb-2018 22:37:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/lcadbcom/public_html/lcadashboard/routes/web.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/web.php on line 5
+[18-Feb-2018 23:04:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/lcadbcom/public_html/lcadashboard/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/api.php on line 17
+[18-Feb-2018 23:04:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Broadcast' not found in /home/lcadbcom/public_html/lcadashboard/routes/channels.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/channels.php on line 14
+[18-Feb-2018 23:04:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/lcadbcom/public_html/lcadashboard/routes/console.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/console.php on line 16
+[18-Feb-2018 23:04:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/lcadbcom/public_html/lcadashboard/routes/web.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/web.php on line 5
+[22-Feb-2018 15:04:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Broadcast' not found in /home/lcadbcom/public_html/lcadashboard/routes/channels.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/channels.php on line 14
+[22-Feb-2018 15:05:22 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/lcadbcom/public_html/lcadashboard/routes/web.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/web.php on line 5
+[22-Feb-2018 15:05:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/lcadbcom/public_html/lcadashboard/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/api.php on line 17
+[22-Feb-2018 23:17:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Broadcast' not found in /home/lcadbcom/public_html/lcadashboard/routes/channels.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/channels.php on line 14
+[22-Feb-2018 23:17:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/lcadbcom/public_html/lcadashboard/routes/console.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/console.php on line 16
+[22-Feb-2018 23:17:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/lcadbcom/public_html/lcadashboard/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/api.php on line 17
+[22-Feb-2018 23:17:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/lcadbcom/public_html/lcadashboard/routes/web.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/web.php on line 5
+[28-Feb-2018 20:23:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/lcadbcom/public_html/lcadashboard/routes/web.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/web.php on line 5
+[02-Mar-2018 04:24:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/lcadbcom/public_html/lcadashboard/routes/console.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/console.php on line 16
+[13-Mar-2018 07:19:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/lcadbcom/public_html/lcadashboard/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/api.php on line 17
+[15-Mar-2018 05:47:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/lcadbcom/public_html/lcadashboard/routes/console.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/console.php on line 16
+[15-Mar-2018 08:36:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Broadcast' not found in /home/lcadbcom/public_html/lcadashboard/routes/channels.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/channels.php on line 14
+[15-Mar-2018 14:07:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Broadcast' not found in /home/lcadbcom/public_html/lcadashboard/routes/channels.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/channels.php on line 14
+[16-Mar-2018 07:44:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/lcadbcom/public_html/lcadashboard/routes/web.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/web.php on line 5
+[21-Mar-2018 14:07:49 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/lcadbcom/public_html/lcadashboard/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/routes/api.php on line 17

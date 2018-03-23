@@ -15,3 +15,5 @@ yarn-error.log
 *.psd
 /storage
 /.phpintel
+composer.lock
+

@@ -1,0 +1,704 @@
+[24-Jan-2018 17:19:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/services.php on line 18
+[25-Jan-2018 09:50:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/app.php on line 16
+[25-Jan-2018 09:50:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/lcadbcom/public_html/lcadashboard/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/view.php on line 17
+[25-Jan-2018 09:50:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/mail.php on line 19
+[25-Jan-2018 09:50:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/queue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/queue.php on line 18
+[25-Jan-2018 09:50:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/cache.php on line 18
+[25-Jan-2018 09:50:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/session.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/session.php on line 19
+[25-Jan-2018 09:50:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/services.php on line 18
+[25-Jan-2018 09:50:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/database.php on line 16
+[25-Jan-2018 09:50:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/analytics.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/analytics.php on line 16
+[25-Jan-2018 09:50:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/lcadbcom/public_html/lcadashboard/config/ide-helper.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/ide-helper.php on line 52
+[25-Jan-2018 09:50:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function app() in /home/lcadbcom/public_html/lcadashboard/config/repository.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/repository.php on line 229
+[25-Jan-2018 09:50:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php on line 15
+[25-Jan-2018 09:50:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/filesystems.php on line 16
+[25-Jan-2018 09:51:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php on line 18
+[25-Jan-2018 09:51:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php on line 30
+[26-Jan-2018 21:48:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/app.php on line 16
+[26-Jan-2018 21:48:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/mail.php on line 19
+[26-Jan-2018 21:48:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/cache.php on line 18
+[26-Jan-2018 21:48:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/lcadbcom/public_html/lcadashboard/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/view.php on line 17
+[26-Jan-2018 21:48:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/queue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/queue.php on line 18
+[26-Jan-2018 21:48:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/session.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/session.php on line 19
+[26-Jan-2018 21:48:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/database.php on line 16
+[26-Jan-2018 21:48:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/services.php on line 18
+[26-Jan-2018 21:48:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/analytics.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/analytics.php on line 16
+[26-Jan-2018 21:48:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/lcadbcom/public_html/lcadashboard/config/ide-helper.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/ide-helper.php on line 52
+[26-Jan-2018 21:48:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php on line 15
+[26-Jan-2018 21:48:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function app() in /home/lcadbcom/public_html/lcadashboard/config/repository.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/repository.php on line 229
+[26-Jan-2018 21:48:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/filesystems.php on line 16
+[26-Jan-2018 21:48:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php on line 18
+[26-Jan-2018 21:48:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php on line 30
+[30-Jan-2018 16:55:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/app.php on line 16
+[30-Jan-2018 19:13:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/mail.php on line 19
+[30-Jan-2018 19:15:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/lcadbcom/public_html/lcadashboard/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/view.php on line 17
+[30-Jan-2018 19:34:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/cache.php on line 18
+[30-Jan-2018 20:50:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/queue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/queue.php on line 18
+[31-Jan-2018 00:37:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/session.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/session.php on line 19
+[31-Jan-2018 06:56:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/database.php on line 16
+[31-Jan-2018 10:43:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/services.php on line 18
+[31-Jan-2018 11:59:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/analytics.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/analytics.php on line 16
+[31-Jan-2018 13:15:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/lcadbcom/public_html/lcadashboard/config/ide-helper.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/ide-helper.php on line 52
+[31-Jan-2018 14:31:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php on line 15
+[31-Jan-2018 15:46:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function app() in /home/lcadbcom/public_html/lcadashboard/config/repository.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/repository.php on line 229
+[31-Jan-2018 17:02:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/filesystems.php on line 16
+[31-Jan-2018 18:18:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php on line 18
+[31-Jan-2018 19:34:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php on line 30
+[13-Feb-2018 15:03:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function app() in /home/lcadbcom/public_html/lcadashboard/config/repository.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/repository.php on line 229
+[14-Feb-2018 15:09:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function app() in /home/lcadbcom/public_html/lcadashboard/config/repository.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/repository.php on line 229
+[14-Feb-2018 15:09:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/app.php on line 16
+[14-Feb-2018 15:09:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/session.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/session.php on line 19
+[14-Feb-2018 15:09:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/lcadbcom/public_html/lcadashboard/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/view.php on line 17
+[14-Feb-2018 15:09:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/cache.php on line 18
+[14-Feb-2018 15:09:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/analytics.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/analytics.php on line 18
+[14-Feb-2018 15:09:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php on line 15
+[15-Feb-2018 15:04:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php on line 15
+[15-Feb-2018 15:04:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/lcadbcom/public_html/lcadashboard/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/view.php on line 17
+[15-Feb-2018 15:04:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/analytics.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/analytics.php on line 18
+[15-Feb-2018 15:04:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/app.php on line 16
+[15-Feb-2018 15:04:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function app() in /home/lcadbcom/public_html/lcadashboard/config/repository.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/repository.php on line 229
+[15-Feb-2018 15:04:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/cache.php on line 18
+[15-Feb-2018 15:04:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/mail.php on line 19
+[15-Feb-2018 15:04:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/database.php on line 16
+[15-Feb-2018 15:04:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/filesystems.php on line 16
+[16-Feb-2018 15:04:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/cache.php on line 18
+[16-Feb-2018 15:04:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/lcadbcom/public_html/lcadashboard/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/view.php on line 17
+[16-Feb-2018 15:04:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/database.php on line 16
+[17-Feb-2018 15:07:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/cache.php on line 18
+[17-Feb-2018 15:07:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/lcadbcom/public_html/lcadashboard/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/view.php on line 17
+[18-Feb-2018 16:23:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/cache.php on line 18
+[18-Feb-2018 22:27:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/analytics.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/analytics.php on line 18
+[18-Feb-2018 22:28:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/app.php on line 16
+[18-Feb-2018 22:28:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php on line 18
+[18-Feb-2018 22:28:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/cache.php on line 18
+[18-Feb-2018 22:28:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/database.php on line 16
+[18-Feb-2018 22:29:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/filesystems.php on line 16
+[18-Feb-2018 22:29:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/lcadbcom/public_html/lcadashboard/config/ide-helper.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/ide-helper.php on line 52
+[18-Feb-2018 22:29:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/mail.php on line 19
+[18-Feb-2018 22:30:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/queue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/queue.php on line 18
+[18-Feb-2018 22:30:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function app() in /home/lcadbcom/public_html/lcadashboard/config/repository.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/repository.php on line 229
+[18-Feb-2018 22:30:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/services.php on line 18
+[18-Feb-2018 22:31:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/session.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/session.php on line 19
+[18-Feb-2018 22:31:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php on line 15
+[18-Feb-2018 22:31:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/lcadbcom/public_html/lcadashboard/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/view.php on line 17
+[18-Feb-2018 22:31:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php on line 30
+[18-Feb-2018 22:58:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/analytics.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/analytics.php on line 18
+[18-Feb-2018 22:59:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/app.php on line 16
+[18-Feb-2018 22:59:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php on line 18
+[18-Feb-2018 22:59:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/cache.php on line 18
+[18-Feb-2018 22:59:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/database.php on line 16
+[18-Feb-2018 22:59:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/filesystems.php on line 16
+[18-Feb-2018 23:00:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/lcadbcom/public_html/lcadashboard/config/ide-helper.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/ide-helper.php on line 52
+[18-Feb-2018 23:00:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/mail.php on line 19
+[18-Feb-2018 23:00:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/queue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/queue.php on line 18
+[18-Feb-2018 23:00:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function app() in /home/lcadbcom/public_html/lcadashboard/config/repository.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/repository.php on line 229
+[18-Feb-2018 23:00:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/services.php on line 18
+[18-Feb-2018 23:01:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/session.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/session.php on line 19
+[18-Feb-2018 23:01:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php on line 15
+[18-Feb-2018 23:01:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/lcadbcom/public_html/lcadashboard/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/view.php on line 17
+[18-Feb-2018 23:01:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php on line 30
+[19-Feb-2018 17:10:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/cache.php on line 18
+[20-Feb-2018 15:03:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/cache.php on line 18
+[21-Feb-2018 15:00:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/cache.php on line 18
+[22-Feb-2018 15:04:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/cache.php on line 18
+[22-Feb-2018 23:17:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/analytics.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/analytics.php on line 18
+[22-Feb-2018 23:17:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/app.php on line 16
+[22-Feb-2018 23:17:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/cache.php on line 18
+[22-Feb-2018 23:17:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php on line 18
+[22-Feb-2018 23:17:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/database.php on line 16
+[22-Feb-2018 23:17:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/filesystems.php on line 16
+[22-Feb-2018 23:17:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/lcadbcom/public_html/lcadashboard/config/ide-helper.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/ide-helper.php on line 52
+[22-Feb-2018 23:17:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/queue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/queue.php on line 18
+[22-Feb-2018 23:17:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/mail.php on line 19
+[22-Feb-2018 23:17:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function app() in /home/lcadbcom/public_html/lcadashboard/config/repository.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/repository.php on line 229
+[22-Feb-2018 23:17:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php on line 15
+[22-Feb-2018 23:17:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/lcadbcom/public_html/lcadashboard/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/view.php on line 17
+[22-Feb-2018 23:17:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/services.php on line 18
+[22-Feb-2018 23:17:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/session.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/session.php on line 19
+[22-Feb-2018 23:17:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php on line 30
+[23-Feb-2018 15:03:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/cache.php on line 18
+[23-Feb-2018 17:56:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/services.php on line 18
+[24-Feb-2018 15:10:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/cache.php on line 18
+[26-Feb-2018 15:12:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/cache.php on line 18
+[26-Feb-2018 15:12:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php on line 15
+[26-Feb-2018 15:12:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/app.php on line 16
+[26-Feb-2018 15:12:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function app() in /home/lcadbcom/public_html/lcadashboard/config/repository.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/repository.php on line 229
+[26-Feb-2018 15:12:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/lcadbcom/public_html/lcadashboard/config/ide-helper.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/ide-helper.php on line 52
+[26-Feb-2018 15:12:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/queue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/queue.php on line 18
+[26-Feb-2018 15:12:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/lcadbcom/public_html/lcadashboard/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/view.php on line 17
+[26-Feb-2018 15:12:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/session.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/session.php on line 19
+[26-Feb-2018 15:12:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/services.php on line 18
+[27-Feb-2018 16:35:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function app() in /home/lcadbcom/public_html/lcadashboard/config/repository.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/repository.php on line 229
+[27-Feb-2018 16:35:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/lcadbcom/public_html/lcadashboard/config/ide-helper.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/ide-helper.php on line 52
+[27-Feb-2018 16:35:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/session.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/session.php on line 19
+[27-Feb-2018 16:35:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/database.php on line 16
+[27-Feb-2018 16:35:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php on line 18
+[27-Feb-2018 16:36:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/mail.php on line 19
+[28-Feb-2018 17:19:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function app() in /home/lcadbcom/public_html/lcadashboard/config/repository.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/repository.php on line 229
+[28-Feb-2018 17:20:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/session.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/session.php on line 19
+[28-Feb-2018 17:20:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php on line 18
+[01-Mar-2018 15:11:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php on line 18
+[15-Mar-2018 14:07:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php on line 15
+[15-Mar-2018 14:07:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function app() in /home/lcadbcom/public_html/lcadashboard/config/repository.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/repository.php on line 229
+[15-Mar-2018 14:07:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/services.php on line 18
+[15-Mar-2018 14:07:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/lcadbcom/public_html/lcadashboard/config/ide-helper.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/ide-helper.php on line 52
+[15-Mar-2018 14:07:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/mail.php on line 19
+[15-Mar-2018 14:07:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/cache.php on line 18
+[15-Mar-2018 14:07:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/database.php on line 16
+[16-Mar-2018 14:03:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/database.php on line 16
+[16-Mar-2018 14:03:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php on line 15
+[16-Mar-2018 14:03:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/cache.php on line 18
+[16-Mar-2018 14:03:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/mail.php on line 19
+[16-Mar-2018 14:03:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php on line 30
+[16-Mar-2018 14:03:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php on line 18
+[16-Mar-2018 14:03:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/queue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/queue.php on line 18
+[17-Mar-2018 06:52:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/app.php on line 16
+[17-Mar-2018 11:51:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/services.php on line 18
+[17-Mar-2018 14:01:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php on line 18
+[17-Mar-2018 14:01:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/mail.php on line 19
+[17-Mar-2018 14:01:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php on line 30
+[17-Mar-2018 16:19:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/broadcasting.php on line 18
+[17-Mar-2018 21:47:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/database.php on line 16
+[17-Mar-2018 22:45:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/lcadbcom/public_html/lcadashboard/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/view.php on line 17
+[18-Mar-2018 05:02:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/queue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/queue.php on line 18
+[18-Mar-2018 05:02:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/swaggervel.php on line 15
+[18-Mar-2018 10:58:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/session.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/session.php on line 19
+[18-Mar-2018 14:05:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php on line 30
+[18-Mar-2018 14:58:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/analytics.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/analytics.php on line 18
+[18-Mar-2018 15:26:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php on line 30
+[18-Mar-2018 16:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/filesystems.php on line 16
+[18-Mar-2018 17:15:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/cache.php on line 18
+[18-Mar-2018 19:37:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function app() in /home/lcadbcom/public_html/lcadashboard/config/repository.php:229
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/repository.php on line 229
+[18-Mar-2018 20:22:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/lcadbcom/public_html/lcadashboard/config/ide-helper.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/ide-helper.php on line 52
+[18-Mar-2018 21:17:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/lcadbcom/public_html/lcadashboard/config/debugbar.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/debugbar.php on line 33
+[19-Mar-2018 04:01:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/mail.php on line 19
+[19-Mar-2018 14:10:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php on line 30
+[20-Mar-2018 14:06:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/whoops-editor.php on line 30

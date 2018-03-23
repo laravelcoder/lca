@@ -1,0 +1,12 @@
+[
+	{"name": "id", "dbType": "increments", "htmlType": "text", "validations": "", "searchable": false, "fillable": false, "primary": true, "inForm": false, "inIndex": true },
+	{"name": "user_id", "dbType": "integer:nullable", "htmlType": null, "validations": null, "searchable": false, "fillable": false, "primary": false, "inForm": false, "inIndex": false },
+	{"name": "clinic_id", "dbType": "integer:nullable", "htmlType": null, "validations": null, "searchable": false, "fillable": false, "primary": false, "inForm": false, "inIndex": false },
+	{"name": "view_id", "dbType": "bigInteger,false", "htmlType": "text", "validations": "required", "searchable": true, "fillable": true, "primary": false, "inForm": true, "inIndex": true },
+	{"name": "view_url", "dbType": "string", "htmlType": "text", "validations": "required", "searchable": true, "fillable": true, "primary": false, "inForm": true, "inIndex": true },
+	{"name": "created_at", "dbType": "datetime", "htmlType": "date", "validations": null, "searchable": false, "fillable": false, "primary": false, "inForm": false, "inIndex": false },
+	{"name": "updated_at", "dbType": "datetime", "htmlType": "date", "validations": null, "searchable": false, "fillable": false, "primary": false, "inForm": false, "inIndex": false },
+	{"name": "deleted_at", "dbType": "datetime", "htmlType": "date", "validations": null, "searchable": false, "fillable": false, "primary": false, "inForm": false, "inIndex": false },
+	{"name": "user_id", "dbType": "integer:unsigned:nullable:foreign,users,id", "htmlType": "text", "relation": "mt1,User,id,user_id"},
+	{"name": "clinic_id", "dbType": "integer:unsigned:nullable:foreign,clinics,id", "htmlType": "text", "relation": "mt1,Clinic,clinic_id,id"}
+]

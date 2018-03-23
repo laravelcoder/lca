@@ -7,9 +7,17 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Admin\StoreLocationsRequest;
 use App\Http\Requests\Admin\UpdateLocationsRequest;
+use App\Http\Controllers\Traits\FileUploadTrait;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Input;
 
+use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
+use Illuminate\Support\Facades\Auth;
 class LocationsController extends Controller
 {
+    use FileUploadTrait;
+
     public function index()
     {
         return Location::all();
@@ -22,6 +30,7 @@ class LocationsController extends Controller
 
     public function update(UpdateLocationsRequest $request, $id)
     {
+        $request = $this->saveFiles($request);
         $location = Location::findOrFail($id);
         $location->update($request->all());
         
@@ -65,6 +74,7 @@ class LocationsController extends Controller
 
     public function store(StoreLocationsRequest $request)
     {
+        $request = $this->saveFiles($request);
         $location = Location::create($request->all());
         
         foreach ($request->input('zipcodes', []) as $data) {

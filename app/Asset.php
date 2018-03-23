@@ -28,6 +28,8 @@ class Asset extends Model
     {
         parent::boot();
 
+        Asset::observe(new \App\Observers\UserActionsObserver);
+
         Asset::observe(new \App\Observers\AssetsHistoryObserver);
     }
 

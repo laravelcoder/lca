@@ -14,5 +14,11 @@ class AssetsLocation extends Model
     protected $fillable = ['title'];
     
     
+    public static function boot()
+    {
+        parent::boot();
+
+        AssetsLocation::observe(new \App\Observers\UserActionsObserver);
+    }
     
 }

@@ -1,0 +1,28 @@
+[25-Jan-2018 09:56:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/lcadbcom/public_html/lcadashboard/config/infyom/laravel_generator.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/infyom/laravel_generator.php on line 14
+[26-Jan-2018 21:52:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/lcadbcom/public_html/lcadashboard/config/infyom/laravel_generator.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/infyom/laravel_generator.php on line 14
+[16-Feb-2018 18:44:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/lcadbcom/public_html/lcadashboard/config/infyom/laravel_generator.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/infyom/laravel_generator.php on line 14
+[19-Feb-2018 21:27:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/lcadbcom/public_html/lcadashboard/config/infyom/laravel_generator.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/infyom/laravel_generator.php on line 14
+[20-Feb-2018 00:20:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/lcadbcom/public_html/lcadashboard/config/infyom/laravel_generator.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/infyom/laravel_generator.php on line 14
+[22-Feb-2018 23:18:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/lcadbcom/public_html/lcadashboard/config/infyom/laravel_generator.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/infyom/laravel_generator.php on line 14
+[21-Mar-2018 23:16:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/lcadbcom/public_html/lcadashboard/config/infyom/laravel_generator.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/config/infyom/laravel_generator.php on line 14

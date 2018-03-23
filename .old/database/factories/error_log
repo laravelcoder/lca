@@ -1,0 +1,28 @@
+[25-Jan-2018 09:56:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home/lcadbcom/public_html/lcadashboard/database/factories/ModelFactory.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/database/factories/ModelFactory.php on line 3
+[26-Jan-2018 21:53:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home/lcadbcom/public_html/lcadashboard/database/factories/ModelFactory.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/database/factories/ModelFactory.php on line 3
+[16-Feb-2018 18:42:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home/lcadbcom/public_html/lcadashboard/database/factories/ModelFactory.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/database/factories/ModelFactory.php on line 3
+[19-Feb-2018 21:27:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home/lcadbcom/public_html/lcadashboard/database/factories/ModelFactory.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/database/factories/ModelFactory.php on line 3
+[20-Feb-2018 00:21:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home/lcadbcom/public_html/lcadashboard/database/factories/ModelFactory.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/database/factories/ModelFactory.php on line 3
+[22-Feb-2018 23:18:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home/lcadbcom/public_html/lcadashboard/database/factories/ModelFactory.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/database/factories/ModelFactory.php on line 3
+[21-Mar-2018 04:14:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function define() on null in /home/lcadbcom/public_html/lcadashboard/database/factories/ModelFactory.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/lcadbcom/public_html/lcadashboard/database/factories/ModelFactory.php on line 3

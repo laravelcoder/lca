@@ -18,6 +18,12 @@ class Website extends Model
     protected $fillable = ['website', 'location_id'];
     
     
+    public static function boot()
+    {
+        parent::boot();
+
+        Website::observe(new \App\Observers\UserActionsObserver);
+    }
 
     /**
      * Set to null if empty

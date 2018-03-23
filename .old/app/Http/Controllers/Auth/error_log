@@ -1,0 +1,17 @@
+[04-Feb-2018 10:28:58 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Controllers/Auth/RegisterController.php on line 10
+[05-Feb-2018 07:24:28 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Controllers/Auth/RegisterController.php on line 10
+[05-Feb-2018 20:27:02 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Controllers/Auth/ResetPasswordController.php on line 8
+[07-Feb-2018 09:34:19 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Controllers/Auth/ForgotPasswordController.php on line 8
+[07-Feb-2018 15:18:36 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Controllers/Auth/LoginController.php on line 8
+[21-Feb-2018 21:40:28 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Controllers/Auth/ForgotPasswordController.php on line 8
+[21-Feb-2018 21:40:30 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Controllers/Auth/LoginController.php on line 8
+[21-Feb-2018 21:40:31 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Controllers/Auth/RegisterController.php on line 10
+[21-Feb-2018 21:40:34 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Controllers/Auth/ResetPasswordController.php on line 8
+[22-Feb-2018 22:00:40 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Controllers/Auth/ForgotPasswordController.php on line 8
+[22-Feb-2018 22:00:41 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Controllers/Auth/LoginController.php on line 8
+[22-Feb-2018 22:00:43 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Controllers/Auth/RegisterController.php on line 10
+[22-Feb-2018 22:00:44 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Controllers/Auth/ResetPasswordController.php on line 8
+[22-Feb-2018 23:23:57 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Controllers/Auth/LoginController.php on line 8
+[22-Feb-2018 23:23:57 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Controllers/Auth/RegisterController.php on line 10
+[22-Feb-2018 23:23:57 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Controllers/Auth/ForgotPasswordController.php on line 8
+[22-Feb-2018 23:23:58 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/lcadbcom/public_html/lcadashboard/app/Http/Controllers/Auth/ResetPasswordController.php on line 8

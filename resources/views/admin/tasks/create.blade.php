@@ -37,7 +37,7 @@
             <div class="row">
                 <div class="col-xs-12 form-group">
                     {!! Form::label('status_id', trans('quickadmin.tasks.fields.status').'*', ['class' => 'control-label']) !!}
-                    {!! Form::select('status_id', $statuses, old('status_id', 1), ['class' => 'form-control select2', 'required' => '']) !!}
+                    {!! Form::select('status_id', $statuses, old('status_id'), ['class' => 'form-control select2', 'required' => '']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('status_id'))
                         <p class="help-block">

@@ -15,33 +15,63 @@
             </li>
 
             
-            @can('user_management_access')
+            @can('dashboard_access')
             <li class="treeview">
                 <a href="#">
-                    <i class="fa fa-users"></i>
-                    <span class="title">@lang('quickadmin.user-management.title')</span>
+                    <i class="fa fa-dashboard"></i>
+                    <span class="title">@lang('quickadmin.dashboards.title')</span>
                     <span class="pull-right-container">
                         <i class="fa fa-angle-left pull-right"></i>
                     </span>
                 </a>
                 <ul class="treeview-menu">
                 
-                @can('role_access')
-                <li class="{{ $request->segment(2) == 'roles' ? 'active active-sub' : '' }}">
-                        <a href="{{ route('admin.roles.index') }}">
-                            <i class="fa fa-briefcase"></i>
+                @can('lca_dashboard_access')
+                <li class="{{ $request->segment(2) == 'lca_dashboards' ? 'active active-sub' : '' }}">
+                        <a href="{{ route('admin.lca_dashboards.index') }}">
+                            <i class="fa fa-dashboard"></i>
                             <span class="title">
-                                @lang('quickadmin.roles.title')
+                                @lang('quickadmin.lca-dashboard.title')
                             </span>
                         </a>
                     </li>
                 @endcan
-                @can('user_access')
-                <li class="{{ $request->segment(2) == 'users' ? 'active active-sub' : '' }}">
-                        <a href="{{ route('admin.users.index') }}">
-                            <i class="fa fa-user"></i>
+                @can('analytical_access')
+                <li class="{{ $request->segment(2) == 'analyticals' ? 'active active-sub' : '' }}">
+                        <a href="{{ route('admin.analyticals.index') }}">
+                            <i class="fa fa-bar-chart-o"></i>
                             <span class="title">
-                                @lang('quickadmin.users.title')
+                                @lang('quickadmin.analytical.title')
+                            </span>
+                        </a>
+                    </li>
+                @endcan
+                @can('marketing_access')
+                <li class="{{ $request->segment(2) == 'marketings' ? 'active active-sub' : '' }}">
+                        <a href="{{ route('admin.marketings.index') }}">
+                            <i class="fa fa-money"></i>
+                            <span class="title">
+                                @lang('quickadmin.marketing.title')
+                            </span>
+                        </a>
+                    </li>
+                @endcan
+                @can('call_metric_access')
+                <li class="{{ $request->segment(2) == 'call_metrics' ? 'active active-sub' : '' }}">
+                        <a href="{{ route('admin.call_metrics.index') }}">
+                            <i class="fa fa-volume-control-phone"></i>
+                            <span class="title">
+                                @lang('quickadmin.call-metrics.title')
+                            </span>
+                        </a>
+                    </li>
+                @endcan
+                @can('booking_dashboard_access')
+                <li class="{{ $request->segment(2) == 'booking_dashboards' ? 'active active-sub' : '' }}">
+                        <a href="{{ route('admin.booking_dashboards.index') }}">
+                            <i class="fa fa-calendar"></i>
+                            <span class="title">
+                                @lang('quickadmin.booking-dashboard.title')
                             </span>
                         </a>
                     </li>
@@ -70,22 +100,22 @@
                         </a>
                     </li>
                 @endcan
-                @can('contact_access')
-                <li class="{{ $request->segment(2) == 'contacts' ? 'active active-sub' : '' }}">
-                        <a href="{{ route('admin.contacts.index') }}">
-                            <i class="fa fa-user-plus"></i>
-                            <span class="title">
-                                @lang('quickadmin.contacts.title')
-                            </span>
-                        </a>
-                    </li>
-                @endcan
                 @can('location_access')
                 <li class="{{ $request->segment(2) == 'locations' ? 'active active-sub' : '' }}">
                         <a href="{{ route('admin.locations.index') }}">
                             <i class="fa fa-map-marker"></i>
                             <span class="title">
                                 @lang('quickadmin.locations.title')
+                            </span>
+                        </a>
+                    </li>
+                @endcan
+                @can('contact_access')
+                <li class="{{ $request->segment(2) == 'contacts' ? 'active active-sub' : '' }}">
+                        <a href="{{ route('admin.contacts.index') }}">
+                            <i class="fa fa-user-plus"></i>
+                            <span class="title">
+                                @lang('quickadmin.contacts.title')
                             </span>
                         </a>
                     </li>
@@ -251,8 +281,121 @@
                 </ul>
             </li>
             @endcan
-
+            @can('user_management_access')
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-users"></i>
+                    <span class="title">@lang('quickadmin.user-management.title')</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                
+                @can('role_access')
+                <li class="{{ $request->segment(2) == 'roles' ? 'active active-sub' : '' }}">
+                        <a href="{{ route('admin.roles.index') }}">
+                            <i class="fa fa-briefcase"></i>
+                            <span class="title">
+                                @lang('quickadmin.roles.title')
+                            </span>
+                        </a>
+                    </li>
+                @endcan
+                @can('user_access')
+                <li class="{{ $request->segment(2) == 'users' ? 'active active-sub' : '' }}">
+                        <a href="{{ route('admin.users.index') }}">
+                            <i class="fa fa-user"></i>
+                            <span class="title">
+                                @lang('quickadmin.users.title')
+                            </span>
+                        </a>
+                    </li>
+                @endcan
+                @can('user_action_access')
+                <li class="{{ $request->segment(2) == 'user_actions' ? 'active active-sub' : '' }}">
+                        <a href="{{ route('admin.user_actions.index') }}">
+                            <i class="fa fa-th-list"></i>
+                            <span class="title">
+                                @lang('quickadmin.user-actions.title')
+                            </span>
+                        </a>
+                    </li>
+                @endcan
+                </ul>
+            </li>
+            @endcan
+            @can('booking_access')
+            <li class="{{ $request->segment(2) == 'bookings' ? 'active' : '' }}">
+                <a href="{{ route('admin.bookings.index') }}">
+                    <i class="fa fa-calendar"></i>
+                    <span class="title">@lang('quickadmin.booking.title')</span>
+                </a>
+            </li>
+            @endcan
             
+            @can('content_management_access')
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-book"></i>
+                    <span class="title">@lang('quickadmin.content-management.title')</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                
+                @can('content_category_access')
+                <li class="{{ $request->segment(2) == 'content_categories' ? 'active active-sub' : '' }}">
+                        <a href="{{ route('admin.content_categories.index') }}">
+                            <i class="fa fa-folder"></i>
+                            <span class="title">
+                                @lang('quickadmin.content-categories.title')
+                            </span>
+                        </a>
+                    </li>
+                @endcan
+                @can('content_tag_access')
+                <li class="{{ $request->segment(2) == 'content_tags' ? 'active active-sub' : '' }}">
+                        <a href="{{ route('admin.content_tags.index') }}">
+                            <i class="fa fa-tags"></i>
+                            <span class="title">
+                                @lang('quickadmin.content-tags.title')
+                            </span>
+                        </a>
+                    </li>
+                @endcan
+                @can('content_page_access')
+                <li class="{{ $request->segment(2) == 'content_pages' ? 'active active-sub' : '' }}">
+                        <a href="{{ route('admin.content_pages.index') }}">
+                            <i class="fa fa-file-o"></i>
+                            <span class="title">
+                                @lang('quickadmin.content-pages.title')
+                            </span>
+                        </a>
+                    </li>
+                @endcan
+                </ul>
+            </li>
+            @endcan
+
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-line-chart"></i>
+                    <span class="title">Generated Reports</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                   <li class="{{ $request->is('/reports/bookings-report') }}">
+                        <a href="{{ url('/admin/reports/bookings-report') }}">
+                            <i class="fa fa-line-chart"></i>
+                            <span class="title">Bookings Report</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
 
             
             @php ($unread = App\MessengerTopic::countUnread())

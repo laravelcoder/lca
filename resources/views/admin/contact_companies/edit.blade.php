@@ -41,30 +41,12 @@
                     @endif
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xs-12 form-group">
-                    @if ($contact_company->storefront)
-                        <a href="{{ asset(env('UPLOAD_PATH').'/'.$contact_company->storefront) }}" target="_blank"><img src="{{ asset(env('UPLOAD_PATH').'/thumb/'.$contact_company->storefront) }}"></a>
-                    @endif
-                    {!! Form::label('storefront', trans('quickadmin.contact-companies.fields.storefront').'', ['class' => 'control-label']) !!}
-                    {!! Form::file('storefront', ['class' => 'form-control', 'style' => 'margin-top: 4px;']) !!}
-                    {!! Form::hidden('storefront_max_size', 4) !!}
-                    {!! Form::hidden('storefront_max_width', 1800) !!}
-                    {!! Form::hidden('storefront_max_height', 1800) !!}
-                    <p class="help-block">Image of your storefront</p>
-                    @if($errors->has('storefront'))
-                        <p class="help-block">
-                            {{ $errors->first('storefront') }}
-                        </p>
-                    @endif
-                </div>
-            </div>
             
         </div>
     </div>
     <div class="panel panel-default">
         <div class="panel-heading">
-            Locations
+            Clinics
         </div>
         <div class="panel-body">
             <table class="table table-bordered table-striped">
@@ -76,11 +58,15 @@
                         <th>@lang('quickadmin.locations.fields.city')</th>
                         <th>@lang('quickadmin.locations.fields.state')</th>
                         <th>@lang('quickadmin.locations.fields.phone')</th>
+                        <th>@lang('quickadmin.locations.fields.phone2')</th>
+                        <th>@lang('quickadmin.locations.fields.google-map-link')</th>
+                        <th>@lang('quickadmin.locations.fields.clinic-id')</th>
+                        <th>@lang('quickadmin.locations.fields.email')</th>
                         
                     <th>Actions</th>
                 </tr>
                 </thead>
-                <tbody id="locations">
+                <tbody id="clinics">
                     @forelse(old('locations', []) as $index => $data)
                         @include('admin.contact_companies.locations_row', [
                             'index' => $index
@@ -180,7 +166,7 @@
 @section('javascript')
     @parent
 
-    <script type="text/html" id="locations-template">
+    <script type="text/html" id="clinics-template">
         @include('admin.contact_companies.locations_row',
                 [
                     'index' => '_INDEX_',

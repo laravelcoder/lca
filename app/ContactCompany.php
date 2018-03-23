@@ -9,13 +9,18 @@ use Illuminate\Database\Eloquent\Model;
  * @package App
  * @property string $name
  * @property string $logo
- * @property string $storefront
 */
 class ContactCompany extends Model
 {
-    protected $fillable = ['name', 'logo', 'storefront'];
+    protected $fillable = ['name', 'logo'];
     
     
+    public static function boot()
+    {
+        parent::boot();
+
+        ContactCompany::observe(new \App\Observers\UserActionsObserver);
+    }
     
     public function locations() {
         return $this->hasMany(Location::class, 'company_id');

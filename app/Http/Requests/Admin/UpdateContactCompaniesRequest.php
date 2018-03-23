@@ -25,7 +25,6 @@ class UpdateContactCompaniesRequest extends FormRequest
         return [
             
             'logo' => 'nullable|mimes:png,jpg,jpeg,gif',
-            'storefront' => 'nullable|mimes:png,jpg,jpeg,gif',
         ];
     }
 }

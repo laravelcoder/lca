@@ -8,9 +8,17 @@ use Illuminate\Support\Facades\Gate;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Admin\StoreLocationsRequest;
 use App\Http\Requests\Admin\UpdateLocationsRequest;
+use App\Http\Controllers\Traits\FileUploadTrait;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Input;
 
+use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
+use Illuminate\Support\Facades\Auth;
 class LocationsController extends Controller
 {
+    use FileUploadTrait;
+
     /**
      * Display a listing of Location.
      *
@@ -21,7 +29,13 @@ class LocationsController extends Controller
         if (! Gate::allows('location_access')) {
             return abort(401);
         }
-
+        if ($filterBy = Input::get('filter')) {
+            if ($filterBy == 'all') {
+                Session::put('Location.filter', 'all');
+            } elseif ($filterBy == 'my') {
+                Session::put('Location.filter', 'my');
+            }
+        }
 
         if (request('show_deleted') == 1) {
             if (! Gate::allows('location_delete')) {
@@ -47,8 +61,9 @@ class LocationsController extends Controller
         }
         
         $companies = \App\ContactCompany::get()->pluck('name', 'id')->prepend(trans('quickadmin.qa_please_select'), '');
+        $created_bies = \App\User::get()->pluck('name', 'id')->prepend(trans('quickadmin.qa_please_select'), '');
 
-        return view('admin.locations.create', compact('companies'));
+        return view('admin.locations.create', compact('companies', 'created_bies'));
     }
 
     /**
@@ -62,6 +77,7 @@ class LocationsController extends Controller
         if (! Gate::allows('location_create')) {
             return abort(401);
         }
+        $request = $this->saveFiles($request);
         $location = Location::create($request->all());
 
         foreach ($request->input('zipcodes', []) as $data) {
@@ -89,10 +105,11 @@ class LocationsController extends Controller
         }
         
         $companies = \App\ContactCompany::get()->pluck('name', 'id')->prepend(trans('quickadmin.qa_please_select'), '');
+        $created_bies = \App\User::get()->pluck('name', 'id')->prepend(trans('quickadmin.qa_please_select'), '');
 
         $location = Location::findOrFail($id);
 
-        return view('admin.locations.edit', compact('location', 'companies'));
+        return view('admin.locations.edit', compact('location', 'companies', 'created_bies'));
     }
 
     /**
@@ -107,6 +124,7 @@ class LocationsController extends Controller
         if (! Gate::allows('location_edit')) {
             return abort(401);
         }
+        $request = $this->saveFiles($request);
         $location = Location::findOrFail($id);
         $location->update($request->all());
 
@@ -162,11 +180,12 @@ class LocationsController extends Controller
             return abort(401);
         }
         
-        $companies = \App\ContactCompany::get()->pluck('name', 'id')->prepend(trans('quickadmin.qa_please_select'), '');$zipcodes = \App\Zipcode::where('location_id', $id)->get();$websites = \App\Website::where('location_id', $id)->get();
+        $companies = \App\ContactCompany::get()->pluck('name', 'id')->prepend(trans('quickadmin.qa_please_select'), '');
+        $created_bies = \App\User::get()->pluck('name', 'id')->prepend(trans('quickadmin.qa_please_select'), '');$zipcodes = \App\Zipcode::where('location_id', $id)->get();$websites = \App\Website::where('location_id', $id)->get();$bookings = \App\Booking::where('requested_clinic_id', $id)->get();$bookings = \App\Booking::where('clinic_id', $id)->get();$bookings = \App\Booking::where('clinic_address_id', $id)->get();$bookings = \App\Booking::where('clinic_phone_id', $id)->get();
 
         $location = Location::findOrFail($id);
 
-        return view('admin.locations.show', compact('location', 'zipcodes', 'websites'));
+        return view('admin.locations.show', compact('location', 'zipcodes', 'websites', 'bookings', 'bookings', 'bookings', 'bookings'));
     }
 
 

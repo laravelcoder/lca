@@ -2,7 +2,7 @@
 
 @section('content')
     <h3 class="page-title">@lang('quickadmin.locations.title')</h3>
-    {!! Form::open(['method' => 'POST', 'route' => ['admin.locations.store']]) !!}
+    {!! Form::open(['method' => 'POST', 'route' => ['admin.locations.store'], 'files' => true,]) !!}
 
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -90,6 +90,84 @@
                     @if($errors->has('phone'))
                         <p class="help-block">
                             {{ $errors->first('phone') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
+                    {!! Form::label('phone2', trans('quickadmin.locations.fields.phone2').'', ['class' => 'control-label']) !!}
+                    {!! Form::text('phone2', old('phone2'), ['class' => 'form-control', 'placeholder' => '']) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('phone2'))
+                        <p class="help-block">
+                            {{ $errors->first('phone2') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
+                    {!! Form::label('logo', trans('quickadmin.locations.fields.logo').'', ['class' => 'control-label']) !!}
+                    {!! Form::file('logo', ['class' => 'form-control', 'style' => 'margin-top: 4px;']) !!}
+                    {!! Form::hidden('logo_max_size', 2) !!}
+                    {!! Form::hidden('logo_max_width', 600) !!}
+                    {!! Form::hidden('logo_max_height', 600) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('logo'))
+                        <p class="help-block">
+                            {{ $errors->first('logo') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
+                    {!! Form::label('storefront', trans('quickadmin.locations.fields.storefront').'', ['class' => 'control-label']) !!}
+                    {!! Form::file('storefront', ['class' => 'form-control', 'style' => 'margin-top: 4px;']) !!}
+                    {!! Form::hidden('storefront_max_size', 4) !!}
+                    {!! Form::hidden('storefront_max_width', 1800) !!}
+                    {!! Form::hidden('storefront_max_height', 1800) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('storefront'))
+                        <p class="help-block">
+                            {{ $errors->first('storefront') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
+                    {!! Form::label('google_map_link', trans('quickadmin.locations.fields.google-map-link').'', ['class' => 'control-label']) !!}
+                    {!! Form::text('google_map_link', old('google_map_link'), ['class' => 'form-control', 'placeholder' => '']) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('google_map_link'))
+                        <p class="help-block">
+                            {{ $errors->first('google_map_link') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
+                    {!! Form::label('clinic_id', trans('quickadmin.locations.fields.clinic-id').'*', ['class' => 'control-label']) !!}
+                    {!! Form::number('clinic_id', old('clinic_id'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('clinic_id'))
+                        <p class="help-block">
+                            {{ $errors->first('clinic_id') }}
+                        </p>
+                    @endif
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 form-group">
+                    {!! Form::label('email', trans('quickadmin.locations.fields.email').'', ['class' => 'control-label']) !!}
+                    {!! Form::text('email', old('email'), ['class' => 'form-control', 'placeholder' => '']) !!}
+                    <p class="help-block"></p>
+                    @if($errors->has('email'))
+                        <p class="help-block">
+                            {{ $errors->first('email') }}
                         </p>
                     @endif
                 </div>

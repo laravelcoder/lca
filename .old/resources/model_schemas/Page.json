@@ -1,0 +1,91 @@
+[{
+	"name": "id",
+	"dbType": "increments",
+	"htmlType": "",
+	"validations": "",
+	"searchable": false,
+	"fillable": false,
+	"primary": true,
+	"inForm": false,
+	"inIndex": false
+}, {
+	"name": "title",
+	"dbType": "string,150",
+	"htmlType": "text",
+	"validations": "required",
+	"searchable": true,
+	"fillable": true,
+	"primary": false,
+	"inForm": true,
+	"inIndex": true
+}, {
+	"name": "meta_description",
+	"dbType": "text",
+	"htmlType": "textarea",
+	"validations": null,
+	"searchable": true,
+	"fillable": true,
+	"primary": false,
+	"inForm": true,
+	"inIndex": false
+}, {
+	"name": "content",
+	"dbType": "text",
+	"htmlType": "textarea",
+	"validations": null,
+	"searchable": true,
+	"fillable": true,
+	"primary": false,
+	"inForm": true,
+	"inIndex": false
+}, {
+	"name": "banner",
+	"dbType": "string",
+	"htmlType": "file",
+	"validations": null,
+	"searchable": true,
+	"fillable": true,
+	"primary": false,
+	"inForm": true,
+	"inIndex": false
+}, {
+	"name": "slug",
+	"dbType": "string",
+	"htmlType": "text",
+	"validations": null,
+	"searchable": true,
+	"fillable": true,
+	"primary": false,
+	"inForm": true,
+	"inIndex": false
+}, {
+	"name": "lang",
+	"dbType": "string,20",
+	"htmlType": "text",
+	"validations": null,
+	"searchable": true,
+	"fillable": true,
+	"primary": false,
+	"inForm": true,
+	"inIndex": false
+}, {
+	"name": "created_at",
+	"dbType": "datetime",
+	"htmlType": "date",
+	"validations": null,
+	"searchable": false,
+	"fillable": false,
+	"primary": false,
+	"inForm": false,
+	"inIndex": false
+}, {
+	"name": "updated_at",
+	"dbType": "datetime",
+	"htmlType": "date",
+	"validations": null,
+	"searchable": false,
+	"fillable": false,
+	"primary": false,
+	"inForm": false,
+	"inIndex": false
+}]

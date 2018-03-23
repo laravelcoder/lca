@@ -1,0 +1,18 @@
+[
+	{"name": "id", "dbType": "increments", "htmlType": "text", "validations": "", "searchable": false, "fillable": false, "primary": true, "inForm": false, "inIndex": true },
+    {"name": "developer_token", "dbType": "string:nullable", "htmlType": "text", "validations": null, "searchable": true, "fillable": true, "primary": false, "inForm": true, "inIndex": false },
+    {"name": "client_customer_id", "dbType": "string:nullable", "htmlType": "text", "validations": null, "searchable": true, "fillable": true, "primary": false, "inForm": true, "inIndex": false },
+    {"name": "user_agent", "dbType": "string:nullable", "htmlType": "text", "validations": null, "searchable": true, "fillable": true, "primary": false, "inForm": true, "inIndex": true },
+    {"name": "client_id", "dbType": "string:nullable", "htmlType": "text", "validations": null, "searchable": true, "fillable": true, "primary": false, "inForm": true, "inIndex": false },
+    {"name": "client_secret", "dbType": "string:unique:nullable", "htmlType": "text", "validations": null, "searchable": true, "fillable": true, "primary": false, "inForm": true, "inIndex": false },
+    {"name": "refresh_token", "dbType": "string:unique:nullable", "htmlType": "text", "validations": null, "searchable": true, "fillable": true, "primary": false, "inForm": true, "inIndex": false },
+    {"name": "authorization_uri", "dbType": "string:default,'https://accounts.google.com/o/oauth2/v2/auth'", "htmlType": "text", "validations": null, "searchable": true, "fillable": true, "primary": false, "inForm": true, "inIndex": false },
+    {"name": "redirect_uri", "dbType": "string:default,'urn:ietf:wg:oauth:2.0:oob'", "htmlType": "text", "validations": null, "searchable": true, "fillable": true, "primary": false, "inForm": true, "inIndex": false },
+    {"name": "token_credential_uri", "dbType": "string:default,'https://www.googleapis.com/oauth2/v4/token'", "htmlType": "text", "validations": null, "searchable": true, "fillable": true, "primary": false, "inForm": true, "inIndex": false },
+    {"name": "scope", "dbType": "string:default,'https://www.googleapis.com/auth/adwords'", "htmlType": "text", "validations": null, "searchable": true, "fillable": true, "primary": false, "inForm": true, "inIndex": false },
+    {"name": "created_at", "dbType": "datetime", "htmlType": "date", "validations": null, "searchable": false, "fillable": false, "primary": false, "inForm": false, "inIndex": false },
+    {"name": "updated_at", "dbType": "datetime", "htmlType": "date", "validations": null, "searchable": false, "fillable": false, "primary": false, "inForm": false, "inIndex": false },
+    //{"name": "deleted_at", "dbType": "datetime", "htmlType": "date", "validations": null, "searchable": false, "fillable": false, "primary": false, "inForm": false, "inIndex": false },
+    {"name": "user_id", "dbType": "integer:unsigned:nullable:foreign,users,id", "htmlType": "text", "relation": "mt1,User,id,user_id"},
+    {"name": "clinic_id", "dbType": "integer:unsigned:nullable:foreign,clinics,id", "htmlType": "text", "relation": "mt1,Clinic,clinic_id,id"}
+]

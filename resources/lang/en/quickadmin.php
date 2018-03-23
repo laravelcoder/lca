@@ -5,11 +5,11 @@ return [
 		'roles' => [		'title' => 'Roles',		'fields' => [			'title' => 'Title',		],	],
 		'users' => [		'title' => 'Users',		'fields' => [			'name' => 'Name',			'email' => 'Email',			'password' => 'Password',			'role' => 'Role',			'remember-token' => 'Remember token',		],	],
 		'contact-management' => [		'title' => 'Clinic management',		'fields' => [		],	],
-		'contact-companies' => [		'title' => 'Clinics',		'fields' => [			'name' => 'Clinic Name',			'logo' => 'Logo',			'storefront' => 'Storefront',		],	],
-		'contacts' => [		'title' => 'Contacts',		'fields' => [			'first-name' => 'First name',			'last-name' => 'Last name',			'phone1' => 'Phone 1',			'phone2' => 'Phone 2',			'email' => 'Email',			'company' => 'Company',			'skype' => 'Skype',			'twitter-username' => 'Twitter username',			'instagram-username' => 'Instagram username',			'facebook-url' => 'Facebook url',			'linked-in-url' => 'Linked in url',			'google-plus-url' => 'Google plus url',			'personal-website' => 'Personal website',		],	],
-		'locations' => [		'title' => 'Locations',		'fields' => [			'company' => 'Company id',			'nickname' => 'Nickname',			'address' => 'Address',			'address-2' => 'Address 2',			'city' => 'City',			'state' => 'State',			'phone' => 'Phone',		],	],
+		'contact-companies' => [		'title' => 'Company',		'fields' => [			'name' => 'Clinic Name',			'logo' => 'Logo',		],	],
+		'contacts' => [		'title' => 'Contacts',		'fields' => [			'first-name' => 'First name',			'last-name' => 'Last name',			'phone1' => 'Phone 1',			'phone2' => 'Phone 2',			'email' => 'Email',			'company' => 'Company',			'skype' => 'Skype',			'twitter-username' => 'Twitter username',			'instagram-username' => 'Instagram username',			'facebook-url' => 'Facebook url',			'linked-in-url' => 'Linked in url',			'google-plus-url' => 'Google plus url',			'personal-website' => 'Personal website',			'contact-type' => 'Contact Type',		],	],
+		'locations' => [		'title' => 'Clinics',		'fields' => [			'company' => 'Company id',			'nickname' => 'Nickname',			'address' => 'Address',			'address-2' => 'Address 2',			'city' => 'City',			'state' => 'State',			'phone' => 'Phone',			'phone2' => 'Phone2',			'logo' => 'Logo',			'storefront' => 'Storefront',			'google-map-link' => 'Google map link',			'clinic-id' => 'Clinic id',			'email' => 'Email',			'created-by' => 'Created by',		],	],
 		'zipcodes' => [		'title' => 'Zipcodes',		'fields' => [			'zipcode' => 'Zipcode',			'location' => 'Location',		],	],
-		'website' => [		'title' => 'Website',		'fields' => [			'website' => 'Website',			'location' => 'Location id',		],	],
+		'website' => [		'title' => 'Website',		'fields' => [			'website' => 'Website',			'location' => 'Clinic',		],	],
 		'analytics' => [		'title' => 'Analytics',		'fields' => [			'view-name' => 'View name',			'website' => 'Website id',			'view-id' => 'View ID',		],	],
 		'adwords' => [		'title' => 'Adwords',		'fields' => [			'website' => 'Website id',			'client-customer-id' => 'Client customer id',			'user-agent' => 'User agent',			'client-id' => 'Client id',			'client-secret' => 'Client secret',			'refresh-token' => 'Refresh token',			'authorization-uri' => 'Authorization URI',			'redirect-uri' => 'Redirect URI',			'token-credential-uri' => 'Token Credential URI',			'scope' => 'Scope',		],	],
 		'task-management' => [		'title' => 'Task management',		'fields' => [		],	],
@@ -25,6 +25,18 @@ return [
 		'assets' => [		'title' => 'Assets',		'fields' => [			'category' => 'Category',			'serial-number' => 'Serial number',			'title' => 'Title',			'photo1' => 'Photo1',			'photo2' => 'Photo2',			'photo3' => 'Photo3',			'status' => 'Status',			'location' => 'Location',			'assigned-user' => 'Assigned (user)',			'notes' => 'Notes',			'assigned-clinic' => 'Assigned clinic',		],	],
 		'assets-history' => [		'title' => 'Assets history',		'created_at' => 'Time',		'fields' => [			'asset' => 'Asset',			'status' => 'Status',			'location' => 'Location',			'assigned-user' => 'Assigned (user)',		],	],
 		'dashboards' => [		'title' => 'Dashboards',		'fields' => [		],	],
+		'analytical' => [		'title' => 'Analytical ',		'fields' => [		],	],
+		'lca-dashboard' => [		'title' => 'LCA Dashboard',		'fields' => [		],	],
+		'bookings' => [		'title' => 'Bookings',		'fields' => [		],	],
+		'call-metrics' => [		'title' => 'Call Metrics',		'fields' => [		],	],
+		'marketing' => [		'title' => 'Marketing',		'fields' => [		],	],
+		'user-actions' => [		'title' => 'User actions',		'created_at' => 'Time',		'fields' => [			'user' => 'User',			'action' => 'Action',			'action-model' => 'Action model',			'action-id' => 'Action id',		],	],
+		'booking' => [		'title' => 'Booking',		'fields' => [			'submitted' => 'Submitted',			'customername' => 'Customer Name',			'email' => 'Email',			'phone' => 'Phone',			'family-number' => 'Family number',			'how-long' => 'How long',			'requested-date' => 'Requested date',			'requested-time' => 'Requested time',			'requested-clinic' => 'Requested clinic',			'clinic' => 'Clinic id',			'clinic-address' => 'Clinic address',			'clinic-phone' => 'Clinic phone',			'clinic-text-numbers' => 'Clinic text numbers',			'client-firstname' => 'Client firstname',		],	],
+		'booking-dashboard' => [		'title' => 'Booking Dashboard',		'fields' => [		],	],
+		'content-management' => [		'title' => 'Content management',		'fields' => [		],	],
+		'content-categories' => [		'title' => 'Categories',		'fields' => [			'title' => 'Category',			'slug' => 'Slug',		],	],
+		'content-tags' => [		'title' => 'Tags',		'fields' => [			'title' => 'Tag',			'slug' => 'Slug',		],	],
+		'content-pages' => [		'title' => 'Pages',		'fields' => [			'title' => 'Title',			'category-id' => 'Categories',			'tag-id' => 'Tags',			'page-text' => 'Text',			'excerpt' => 'Excerpt',			'featured-image' => 'Featured image',		],	],
 	'qa_create' => 'Create',
 	'qa_save' => 'Save',
 	'qa_edit' => 'Edit',

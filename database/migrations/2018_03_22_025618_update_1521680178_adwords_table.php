@@ -15,7 +15,7 @@ class Update1521680178AdwordsTable extends Migration
         Schema::table('adwords', function (Blueprint $table) {
             
 if (!Schema::hasColumn('adwords', 'scope')) {
-                $table->string('scope')->default('https://www.googleapis.com/auth/adwords');
+                $table->string('scope')->nullable();
                 }
         });
 

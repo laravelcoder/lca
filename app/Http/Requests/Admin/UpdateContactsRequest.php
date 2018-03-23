@@ -24,6 +24,7 @@ class UpdateContactsRequest extends FormRequest
     {
         return [
             
+            'contact_type' => 'required',
         ];
     }
 }

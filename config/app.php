@@ -182,9 +182,7 @@ return [
         Laravel\Tinker\TinkerServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
-        Edujugon\GoogleAds\Providers\GoogleAdsServiceProvider::class,
-        // Spatie\Analytics\AnalyticsServiceProvider::class,
-        // Spatie\LaravelAnalytics\LaravelAnalyticsServiceProvider::class,
+        Yajra\DataTables\DataTablesServiceProvider::class,
         
         /*
          * Application Service Providers...
@@ -255,10 +253,12 @@ return [
         'Analytics' => Spatie\Analytics\AnalyticsFacade::class,
      
         'AnalyticsHelper' => Dashboard\Helpers\AnalyticsHelper::class,
-
-        
     ],
 
-    
+    'languages' => [
+        'en' => 'English',
+        'es' => 'Spanish',
+        'fr' => 'French',
+    ],
 
 ];

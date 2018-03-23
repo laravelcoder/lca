@@ -15,5 +15,6 @@ $factory->define(App\Contact::class, function (Faker\Generator $faker) {
         "linked_in_url" => $faker->name,
         "google_plus_url" => $faker->name,
         "personal_website" => $faker->name,
+        "contact_type" => collect(["ge","cp",])->random(),
     ];
 });

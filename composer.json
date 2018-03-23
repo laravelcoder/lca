@@ -20,7 +20,9 @@
     "orangehill/iseed": "^2.5",
     "spatie/laravel-analytics": "^3.5",
     "thomaswelton/laravel-gravatar": "^1.1",
-    "webpatser/laravel-uuid": "^3.0"
+    "unisharp/laravel-filemanager": "~1.8",
+    "webpatser/laravel-uuid": "^3.0",
+    "yajra/laravel-datatables-oracle": "^8.4.1"
   },
   "require-dev": {
     "filp/whoops": "~2.0",
